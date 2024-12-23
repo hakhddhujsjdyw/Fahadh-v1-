@@ -7,7 +7,7 @@ class Config:
     API_HASH = getenv("API_HASH", "e12f1473abbeaaf8302bf2692efd98f6")
     BOT_TOKEN = getenv("BOT_TOKEN", "")
  
-    ADMIN = list(map(int, getenv("ADMIN", "7425490417 1204889321").split()))
+    ADMIN = list(map(int, getenv("ADMIN", "7425490417 1509123054").split()))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002276401285"))
     
     # database configs
